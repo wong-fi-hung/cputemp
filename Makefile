@@ -1,6 +1,6 @@
 CC       ?= $(CROSS_COMPILE)gcc
 LD     = $(CC)
-CFLAGS = -O3 -Ofast -Oz
+CFLAGS = -Ofast
 LDFLAGS = -static -s
 OBJECTS += \
 	cputemp.o
